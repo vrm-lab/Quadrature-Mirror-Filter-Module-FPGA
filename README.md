@@ -205,6 +205,26 @@ complete audio system or reusable framework.
 
 ---
 
+## Dependencies
+
+This repository builds on the following previously published RTL modules:
+
+- **FIR Stereo Core**  
+  https://github.com/vrm-lab/FIR-Stereo-FPGA  
+  Used as the underlying FIR engine for the QMF analysis and synthesis filters.
+
+- **Audio Gain Module**  
+  https://github.com/vrm-lab/Audio-Gain-Module-FPGA  
+  Used in the integration example to demonstrate subband-domain gain processing.
+
+These dependencies are included as RTL sources in this repository for
+completeness and reproducibility.
+
+The external links are provided to document module lineage and design
+context, not as runtime or build-time requirements.
+
+---
+
 ## Project Status
 
 This repository is considered **complete**.
