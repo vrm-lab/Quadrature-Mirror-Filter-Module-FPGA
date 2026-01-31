@@ -1,4 +1,4 @@
-## Integration Overview
+## Integration
 
 This repository also includes an **integration-level validation**
 that combines multiple RTL building blocks into a single streaming pipeline:
