@@ -45,14 +45,14 @@ AXI-Stream In
 v
 +----------------------+
 | QMF Analysis Core |
-| (FIR-based) |
+| (FIR-based)       |
 +----------------------+
 |
 | Low / High Subbands
 |
 +----------------------+
 | QMF Synthesis Core |
-| (FIR-based) |
+| (FIR-based)        |
 +----------------------+
 |
 v
