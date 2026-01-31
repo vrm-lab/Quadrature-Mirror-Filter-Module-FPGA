@@ -182,6 +182,29 @@ These choices reflect **engineering trade-offs**, not missing features.
 
 ---
 
+## Integration Overview
+
+This repository also includes a **system-level integration** of:
+
+QMF Analysis  
+→ Independent subband gain (low / high)  
+→ QMF Synthesis
+
+The integration demonstrates that:
+
+- QMF analysis and synthesis operate correctly as a streaming pair
+- Subband-domain processing can be inserted without breaking timing
+- Multiple AXI-Stream modules can be chained without deadlock
+- AXI-Stream data paths and AXI-Lite control paths remain cleanly separated
+
+Integration is validated using an RTL testbench with explicit wiring,
+robust handshake handling, and offline waveform inspection.
+
+This integration is provided as a **reference architecture**, not as a
+complete audio system or reusable framework.
+
+---
+
 ## Project Status
 
 This repository is considered **complete**.
